@@ -1,0 +1,259 @@
+@import url(http://fonts.googleapis.com/css?family=Tenor+Sans);
+html {
+  background-color: #5D92BA;
+  font-family: "Tenor Sans", sans-serif;
+}
+
+.container {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.login {
+  margin-top: 50px;
+  width: 450px;
+}
+
+.login-heading {
+  font: 1.8em/48px "Tenor Sans", sans-serif;
+  color: white;
+}
+
+.input-txt {
+  width: 100%;
+  padding: 20px 10px;
+  background: #5D92BA;
+  border: none;
+  font-size: 1em;
+  color: white;
+  border-bottom: 1px dotted rgba(250, 250, 250, 0.4);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+.input-txt:-moz-placeholder {
+  color: #81aac9;
+}
+.input-txt:-ms-input-placeholder {
+  color: #81aac9;
+}
+.input-txt::-webkit-input-placeholder {
+  color: #81aac9;
+}
+.input-txt:focus {
+  background-color: #4478a0;
+}
+
+.login-footer {
+  margin: 10px 0;
+  overlow: hidden;
+  float: left;
+  width: 100%;
+    height: 84px;
+}
+
+.btn {
+  border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    padding: 15px 30px;
+    background: white;
+    color: #5D92BA;
+    margin-left: 1px;
+}
+
+.btn--right {
+  float: right;
+}
+
+.btnx {
+  border-style: none;
+    border-color:none;
+    border-width:thin;
+    padding: 15px 30px;
+    background:white;
+    color: #5D92BA;
+    margin-left: 1px;
+}
+
+
+.icon {
+  display: inline-block;
+}
+
+.icon--min {
+  font-size: .9em;
+}
+
+.lnk {
+  font-size: .8em;
+  line-height: 3em;
+  color: white;
+  text-decoration: none;
+}
+
+input[type='text'], input[type='password']
+{
+border-radius: 3px;
+border: 1px solid #CCC;
+padding: 8px;
+font-weight: 200;
+font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+    margin-bottom: 1px;
+}
+
+input[type='text']:hover, input[type='password']:hover
+{
+width: 200px;
+height: 29px;
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 8px;
+font-weight: 200;
+font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+/*CSS for textarea*/
+
+textarea
+{
+border-radius: 3px;
+border: 1px solid #CCC;
+padding: 8px;
+font-weight: 200;
+font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+textarea:hover
+{
+width: 200px;
+height: 90px;
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 8px;
+font-weight: 200;
+font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+
+.btnLogin {
+
+      padding: 15px 30px;
+  border: none;
+  background: white;
+  color: #5D92BA;
+}
+
+
+/* CSSTerm.com Simple Horizontal DropDown CSS menu */
+
+.drop_menu {
+	background:#005555;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	height:30px;
+}
+.drop_menu li { float:left; }
+.drop_menu li a {
+	padding:9px 20px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font:12px arial, verdana, sans-serif;
+}
+
+/* Submenu */
+.drop_menu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+}
+.drop_menu li:hover { position:relative; background:#5FD367; }
+.drop_menu li:hover ul {
+	left:0px;
+	top:30px;
+	background:#5FD367;
+	padding:0px;
+}
+
+.drop_menu li:hover ul li a {
+	padding:5px;
+	display:block;
+	width:168px;
+	text-indent:15px;
+	background-color:#5FD367;
+}
+.drop_menu li:hover ul li a:hover { background:#005555; }
+
+
+
+
+
+    #headtop {
+    background-color:indigo;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#nav {
+    line-height:30px;
+    background-color:Background;
+    height:100px;
+     height:500px;
+    width:200px;
+    float:left;
+    padding:5px;
+}
+#section {
+    width:1000px;
+    float:left;
+    padding:10px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+	float:center;
+}
+
+<!-- -->
+.dropdown-content {
+    display: none;
+    position: relative;
+	left:500px;
+    background-color: #f9f9f9;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color:Background;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

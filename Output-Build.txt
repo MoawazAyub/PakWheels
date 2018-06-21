@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: Pakwheels Start, Configuration: Debug Any CPU ------
+1>  Pakwheels Start -> E:\NU-Smester-5\DataBase System\Practice\Pakwheels Start\Pakwheels Start\bin\Pakwheels Start.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
